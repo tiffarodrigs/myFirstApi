@@ -1,0 +1,110 @@
+
+body{
+  margin: 0 30px;
+  color: black;
+  font-family: 'Roboto', sans-serif; 
+  color: darkslategrey;
+}
+.row {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  background-color: #fafafb
+
+}
+
+.column {
+  flex: 50%;
+  padding: 20px;
+}
+.skill{
+  display: flex;
+  text-align: center;
+  border-radius: 25px;
+  float: left;
+  margin: 6px;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #533232;
+  font-family: system-ui;
+}
+.skill:nth-child(1n) {
+  background-color: rgb(241, 216, 147);
+}
+.skill:nth-child(2n) {
+  background-color: rgb(235, 158, 228);
+}
+.skill:nth-child(3n) {
+  background-color: rgb(157, 209, 243);
+}
+.skill:nth-child(4n) {
+  background-color: rgb(250, 176, 219);
+}
+.skill:nth-child(5n) {
+  background-color: rgb(247, 180, 168);
+}
+.education{
+  width: 100%;
+  
+}
+
+.skill-div{
+  height: 40%;
+  width: 100%;
+  padding-top: 85px;
+  padding-bottom: 20px;
+  
+}
+.contact{
+  padding-top: 25px;
+  font-size: small;
+}
+.contact div{
+  padding-bottom: 5px;
+  display: flex;
+}
+a{
+  padding: 5px;
+}
+
+.inner_edu{
+  display: flex;
+  padding: 5px;
+  padding-top: 25px;
+}
+.inner_edu > div{
+
+  padding-left: 7px;
+}
+.inner_edu > img{
+padding-top: 3px;
+}
+.title{
+  font-family: 'Roboto', sans-serif;
+  color: #3b8e91;
+}
+.title-bold
+{
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size:large;
+  color: #307daa;
+}
+.desc{
+  font-size: small;
+  padding-top: 5px;
+}
+h3{
+  color: #cd8030;
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 1em;
+}
+h2{
+  color: #2f7daa;
+    margin-bottom: 0px;
+}
+.skill-head{
+  padding-left: 10px;
+  text-decoration: underline;
+}
