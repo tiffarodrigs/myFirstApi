@@ -1,6 +1,6 @@
 
 body{
-  margin: 0 30px;
+  /* margin: 0 30px; */
   color: black;
   font-family: 'Roboto', sans-serif; 
   color: darkslategrey;
@@ -9,12 +9,13 @@ body{
   display: flex;
   margin: auto;
   width: 70%;
-  background-color: #fafafb
+  /* background-color: #fafafb */
 
 }
 
 .column {
-  flex: 50%;
+  /* display:flex; */
+  flex: 0%;
   padding: 20px;
 }
 .skill{
@@ -44,6 +45,7 @@ body{
   background-color: rgb(247, 180, 168);
 }
 .education{
+  padding-top: 35px;
   width: 100%;
   
 }
@@ -56,7 +58,7 @@ body{
   
 }
 .contact{
-  padding-top: 25px;
+  padding-top: 35px;
   font-size: small;
 }
 .contact div{
